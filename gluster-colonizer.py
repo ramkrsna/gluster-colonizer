@@ -7,7 +7,7 @@
 #  version 3 (GPLv3), as published by the Free Software Foundation             *
 #------------------------------------------------------------------------------*
 #                                                                              *
-# gluster-colnizer.py:  This script initiates a Gluster deployment based on a  *
+# gluster-colonizer.py:  This script initiates a Gluster deployment based on a  *
 #                       recipe defined in a set of OEMID files.                *
 #                                                                              *
 # Usage:                $ gluster-colonizer.py -f <OEMID FILE>                 *
@@ -149,7 +149,7 @@ ad_domain_name = ""
 consumed_ips = []
 readme_file = "/root/colonizer.README.txt"
 g1_inventory = ""
-playbook_path = g1_path + "ansible/"
+playbook_path = g1_path + "playbook/ansible/"
 config_ad = ''
 idmap_module = ''
 needsBootstrapping = 'needs_bootstrap' in oem_id['flavor']['node'] and oem_id['flavor']['node']['needs_bootstrap'] is True
